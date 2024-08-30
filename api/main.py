@@ -10,7 +10,7 @@ app = FastAPI()
 
 # Configuração do CORS
 origins = [
-    "http://localhost:3000",
+    "https://lkr-viagens.vercel.app",
 ]
 
 app.add_middleware(
